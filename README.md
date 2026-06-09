@@ -20,6 +20,7 @@ THE github API allows developers to interact with github programatically. It ena
   - copy the token and paste it
 
   **select the endpoint you wanted**
+  
   choose the enpoint you want make request
   * get/user/{username} - get the user profile
   * get/user/{username}/repo - retrieve the repos of a user
