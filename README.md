@@ -26,4 +26,11 @@ THE github API allows developers to interact with github programatically. It ena
   * get/user/{username}/repo - retrieve the repos of a user
   * post/user/repo - create the repository
 
+  **Request headers**
+  Every api request needs standard header
+  - supply the accept header fot media version
+  - authorization should carry your token
+
+  **how to make request**
+  how to get authenticated user profile
     
