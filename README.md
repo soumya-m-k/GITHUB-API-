@@ -81,11 +81,11 @@ THE github API allows developers to interact with github programatically. It ena
 
   - ### Create a repository
 
-         **Endpoint**
+      **Endpoint**
 
        <mark>  POST/user/repos</mark>
 
-         **request body**
+       **request body**
 
         {<br>
            "name":"my new repo",<br>
@@ -93,7 +93,7 @@ THE github API allows developers to interact with github programatically. It ena
            "private":false,<br>
          }
 
-         **Response Example**
+       **Response Example**
 
           "id": 1264740174,
       
@@ -133,13 +133,13 @@ THE github API allows developers to interact with github programatically. It ena
 
         get  https://api.github.com/user
  
-          or if you want public user
+       or if you want public user
  
         get  https://api.github.com/users/soumya-m-k
 
        **Response example**
 
-        {
+         {
 
            "login":"soumya-m-k",
     
@@ -147,7 +147,7 @@ THE github API allows developers to interact with github programatically. It ena
 
            "name":"soumya kanabargi"
 
-        }
+         }
 
   +  **list of repository**
 
@@ -159,7 +159,7 @@ THE github API allows developers to interact with github programatically. It ena
  
        **Response example**
 
-        {
+         {
 
            "id":102578405,
 
@@ -167,7 +167,7 @@ THE github API allows developers to interact with github programatically. It ena
 
            "fullname"soumya-m-k/github api"
 
-        }
+         }
 
   +  **create a repository**
  
